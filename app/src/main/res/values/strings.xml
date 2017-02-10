@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LtmFirst</string>
+    <string name="titolo">Non ho gusti nello scegliere i colori!</string>
+    <string name="testo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Quisque laoreet metus eu ante scelerisque, non posuere tortor placerat.
+        Vivamus eget massa non nisi aliquet rutrum non sit amet elit.
+        Pellentesque scelerisque, nibh bibendum viverra condimentum,
+        leo nisi condimentum libero, vitae congue enim ante nec sapien.
+        Sed sagittis, arcu in maximus.</string>
+    <string name="sottoTitolo">ciao il mio nome è domenico licciardi ed ho 19 anni</string>
+    <string name="data">08/02/2017</string>
+    <string name="login">LOGIN</string>
+</resources>

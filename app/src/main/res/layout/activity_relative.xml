@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titolo"
+        android:id="@+id/title"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sottoTitolo"
+        android:id="@+id/subtitle"
+        android:layout_below="@+id/title"
+        android:layout_toStartOf="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:padding="3dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data"
+        android:id="@+id/date"
+        android:layout_below="@+id/title"
+        android:layout_alignEnd="@+id/title"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testo"
+        android:id="@+id/testo"
+        android:layout_below="@+id/subtitle"
+        android:padding="3dp"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="leggi"
+        android:id="@+id/read"
+        android:layout_below="@+id/testo"
+        android:layout_alignEnd="@id/date"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nascondi"
+        android:id="@+id/nascondi"
+        android:layout_below="@+id/testo"
+        android:layout_toStartOf="@+id/read"/>
+</RelativeLayout>
